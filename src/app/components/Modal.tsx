@@ -20,7 +20,7 @@ const Modal = ({ toggleModal, modalVisible }: Props) => {
           exit="exit"
           variants={modal_animation}
           transition={transition}
-          className="fixed pt-8 inset-0 md:top-1/4 md:-translate-y-1/2 md:mx-auto md:max-w-lg md:min-h-fit overflow-hidden bg-black rounded-xl bg-opacity-30 backdrop-blur-md backdrop-filter flex flex-col">
+          className="fixed pt-8 inset-0 md:top-1/4 md:-translate-y-1/2 md:mx-auto md:max-w-lg md:min-h-fit overflow-hidden bg-black md:rounded-xl bg-opacity-30 backdrop-blur-md backdrop-filter flex flex-col">
           <button
             onClick={() => toggleModal()}
             className="absolute right-3 top-3 group">

@@ -65,7 +65,7 @@ const DevInfo = ({
       )}
 
       {modalVisible && (
-        <p className="font-thin py-2">
+        <p className="font-thin py-2 mx-4 text-center">
           I help cultivate bonds between products and users.
         </p>
       )}
