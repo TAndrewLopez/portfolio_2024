@@ -31,7 +31,7 @@ const SliderController = ({
           variants={animations["bottom"]}
           transition={transition}
           className="fixed top-0 bottom-0 left-0 right-0">
-          <div className="fixed mx-4 rounded-t-xl md:max-w-4xl md:mx-auto bg-zinc-900 top-[500px] bottom-0 left-0 right-0">
+          <div className="fixed mx-4 rounded-t-xl md:max-w-4xl md:mx-auto bg-zinc-900 top-0 md:top-[500px] bottom-0 left-0 right-0">
             {projectData ? (
               <ProjectSlider
                 project={projectData}
