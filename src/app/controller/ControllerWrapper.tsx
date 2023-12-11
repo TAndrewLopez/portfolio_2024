@@ -34,9 +34,9 @@ const ControllerWrapper = ({
           variants={animation}
           transition={transition}
           className={default_styles + inputStyles}>
-          <div className="flex items-center justify-center h-full">
+          <div className="flex items-center justify-center h-full relative">
             {title && (
-              <h2 className="fixed left-9 top-7 text-white text-xl font-bold tracking-wider z-10">
+              <h2 className="absolute left-9 top-7 text-white text-xl font-bold tracking-wider z-10">
                 <span className="absolute left-1/2 -translate-x-1/2 -bottom-1 w-3/4 h-0.5 bg-white"></span>
                 {title}
               </h2>

@@ -25,7 +25,7 @@ const ProjectController = ({ toggleSlider, isHidden }: Props) => {
             return (
               <li
                 onClick={() => toggleSlider(name)}
-                className="relative bg-red-200 cursor-pointer duration-300 m-5 rounded-xl saturate-50 hover:saturate-100 min-h-[210px] group"
+                className="relative cursor-pointer duration-300 m-5 rounded-xl saturate-50 hover:saturate-100 min-h-[210px] group"
                 key={project.name}>
                 <div className="flex h-full flex-col">
                   <div className="flex-1 flex text-white justify-end px-4 py-2 relative ">
@@ -37,6 +37,7 @@ const ProjectController = ({ toggleSlider, isHidden }: Props) => {
                       src={imageURL}
                       alt="project_banner"
                       fill
+                      priority
                       style={{
                         objectFit: "cover",
                       }}
