@@ -43,7 +43,7 @@ const ProjectController = ({ toggleSlider, isHidden }: Props) => {
                       }}
                     />
                   </div>
-                  <div className="hidden fixed bottom-0 group-hover:flex w-full justify-between items-end px-2 pb-2">
+                  <div className="hidden absolute bottom-0 group-hover:flex w-full justify-between items-end px-2 pb-2">
                     <ProjectTechList whiteIcons project={project} />
                   </div>
                 </div>
