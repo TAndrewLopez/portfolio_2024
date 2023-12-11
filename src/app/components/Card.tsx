@@ -29,7 +29,7 @@ const Card = ({
       </div>
       {/* CONTENT */}
       <div className="flex-1 flex flex-col gap-12 items-center justify-center">
-        <h1 className="relative text-4xl font-bold text-white">
+        <h1 className="relative text-center text-4xl font-bold text-white">
           {title}
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-1 w-3/4 h-0.5 bg-white"></span>
         </h1>

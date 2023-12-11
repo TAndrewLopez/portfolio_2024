@@ -8,7 +8,7 @@ type Props = {
 const ProjectContent = ({ project }: Props) => {
   const { videoURL, description, images } = project;
   return (
-    <div className="relative text-white flex flex-col gap-5 px-12">
+    <div className="relative text-white flex flex-col gap-5 px-5">
       {videoURL && (
         <video controls>
           <source src="./video/linkuistixVideo.mp4" type="video/mp4" />
