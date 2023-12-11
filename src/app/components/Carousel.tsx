@@ -83,14 +83,14 @@ const Carousel = ({
         {controls && images.length > 1 && (
           <div>
             <button
-              className="absolute top-[calc(50%-25px)] left-0 h-12 w-16 bg-[rgba(0,0,0,0.5)] flex items-center justify-center"
+              className="absolute top-[calc(50%-25px)] left-0 h-8 w-10 lg:h-12 lg:w-16 bg-[rgba(0,0,0,0.5)] flex items-center justify-center"
               onClick={(evt) => {
                 slide(false);
               }}>
               {"<"}
             </button>
             <button
-              className="absolute top-[calc(50%-25px)] right-0 h-12 w-16 bg-[rgba(0,0,0,0.5)] flex items-center justify-center"
+              className="absolute top-[calc(50%-25px)] right-0 h-8 w-10 lg:h-12 lg:w-16 bg-[rgba(0,0,0,0.5)] flex items-center justify-center"
               onClick={(evt) => {
                 slide(true);
               }}>

@@ -11,7 +11,7 @@ const AboutCard = ({ toggleSlider }: Props) => {
       title="About Dev"
       closeAction={toggleSlider}
       content={
-        <div className="relative text-white flex flex-col gap-5 px-12">
+        <div className="relative text-white flex flex-col gap-5 px-5">
           <p>
             Hello, my name is Andrew and I&rsquo;m Fullstack Developer from the
             Tri-state area.
