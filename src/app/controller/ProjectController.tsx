@@ -27,7 +27,7 @@ const ProjectController = ({ toggleSlider, isHidden }: Props) => {
                 onClick={() => toggleSlider(name)}
                 className="relative cursor-pointer duration-300 m-5 rounded-xl saturate-50 hover:saturate-100 min-h-[210px] group"
                 key={project.name}>
-                <div className="flex h-full flex-col">
+                <div className="flex h-full flex-col relative">
                   <div className="flex-1 flex text-white justify-end px-4 py-2 relative ">
                     <p className="hidden font-bold group-hover:block">
                       {project.name}
