@@ -24,7 +24,8 @@ export default function Home() {
   };
 
   return (
-    <main className="bg-mystic bg-no-repeat bg-center bg-cover h-full overflow-hidden">
+    // <main className="bg-mystic bg-no-repeat bg-center bg-cover h-full overflow-hidden">
+    <main className="h-full overflow-hidden">
       <div className="flex flex-col h-full mx-auto max-w-4xl p-4 space-y-5">
         {/* DEV INFO */}
         <div className="flex-1">
