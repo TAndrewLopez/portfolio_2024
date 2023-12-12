@@ -20,19 +20,19 @@ const Card = ({
   footerRightTitle,
 }: Props) => {
   return (
-    <div className="rounded-t-xl h-full p-4 flex flex-col">
+    <div className="rounded-t-xl h-full p-4 flex flex-col gap-3">
       {/* TITLE */}
       <div className="flex justify-end">
         <button onClick={() => closeAction()}>
           <Close twClass="h-8 w-8 fill-white hover:fill-sky-500" />
         </button>
       </div>
+      <h1 className="relative text-center text-4xl font-bold text-white">
+        {title}
+        <span className="absolute left-1/2 -translate-x-1/2 -bottom-1 w-3/4 h-0.5 bg-white"></span>
+      </h1>
       {/* CONTENT */}
-      <div className="flex-1 flex flex-col gap-12 items-center justify-center">
-        <h1 className="relative text-center text-4xl font-bold text-white">
-          {title}
-          <span className="absolute left-1/2 -translate-x-1/2 -bottom-1 w-3/4 h-0.5 bg-white"></span>
-        </h1>
+      <div className="flex-1 flex flex-col items-center justify-center text-sm sm:text-sm md:text-base overflow-y-auto md:overflow-visible">
         {content}
       </div>
       {/* FOOTER */}

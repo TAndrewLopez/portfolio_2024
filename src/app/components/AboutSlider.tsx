@@ -11,7 +11,7 @@ const AboutCard = ({ toggleSlider }: Props) => {
       title="About Dev"
       closeAction={toggleSlider}
       content={
-        <div className="relative text-white flex flex-col gap-5 px-5">
+        <div className="relative h-full text-white flex flex-col gap-5 px-5">
           <p>
             Hello, my name is Andrew and I&rsquo;m Fullstack Developer from the
             Tri-state area.
@@ -39,7 +39,6 @@ const AboutCard = ({ toggleSlider }: Props) => {
             expertise to a forward-thinking and innovative individual or
             organization, elevating projects and propelling success.
           </p>
-          <span className="absolute left-1/2 -translate-x-1/2 -bottom-5 w-3/4 h-0.5 bg-white"></span>
         </div>
       }
       footerLeft={
