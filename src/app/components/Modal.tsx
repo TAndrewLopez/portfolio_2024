@@ -41,7 +41,7 @@ const Modal = ({ toggleModal, modalVisible }: Props) => {
                   window.open("https://calendly.com/t-andrewlopez", "_blank")
                 }
                 className="w-full text-left hover:text-sky-500">
-                Calendy
+                Calendly
               </button>
             </div>
             <div className="flex flex-col items-center text-white text-xl">

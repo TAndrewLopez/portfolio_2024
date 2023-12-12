@@ -44,7 +44,7 @@ const AboutCard = ({ toggleSlider }: Props) => {
             window.open("https://calendly.com/t-andrewlopez", "_blank")
           }
           className="w-full text-left hover:text-sky-500">
-          Calendy
+          Calendly
         </button>
       }
       footerRight={<SocialsList />}
