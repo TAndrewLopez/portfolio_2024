@@ -42,7 +42,7 @@ export default function Home() {
         </div>
 
         {/* SKILLS SECTION */}
-        <div className="">
+        <div>
           <SkillsController isHidden={showModal} />
         </div>
       </div>

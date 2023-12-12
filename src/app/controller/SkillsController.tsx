@@ -14,12 +14,13 @@ const SkillsController = ({ isHidden }: Props) => {
       animateFrom="bottom"
       background
       title="Skills">
-      <div className="overflow-x-scroll min-h-[210px] h-full">
+      <div className="overflow-x-scroll min-h-[150px] md:min-h-[210px] h-full">
         <ul className="flex h-full items-center mx-5">
           {keys.map((key) => {
-            const Icon = skills[key].icon;
+            const skill = skills[key];
+            const { icon: Icon, name } = skill;
             return (
-              <li key={key} className="pr-10 pt-5">
+              <li key={key} className="pr-10 pt-5" title={name}>
                 <motion.button
                   disabled={true}
                   whileHover={{ y: 10 }}

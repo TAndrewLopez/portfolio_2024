@@ -11,33 +11,30 @@ const AboutCard = ({ toggleSlider }: Props) => {
       title="About Dev"
       closeAction={toggleSlider}
       content={
-        <div className="relative h-full text-white flex flex-col gap-5 px-5">
+        <div className="relative h-full text-white flex flex-col md:items-center font-thin md:justify-center md:text-xl gap-5 py-5 px-5">
           <p>
-            Hello, my name is Andrew and I&rsquo;m Fullstack Developer from the
-            Tri-state area.
+            Hello, my name is Andrew, and I&rsquo;m Fullstack Developer based in
+            tri-state area. With a background as a former recruiter for a
+            FinTech company, I had the privilege of interviewing thousands of
+            individuals for various roles. However, my most memorable
+            conversations were with software engineers. Engaging in numerous
+            discussions about new technologies and ongoing projects with the
+            team consistently reignited my passion for technology.
           </p>
           <p>
-            As a dynamic and adaptive software developer, I thrive in the face
-            of new challenges and excel in navigating unexplored territories. My
-            journey through diverse startup environments has equipped me with
-            the prowess to maneuver through uncertain scenarios, making me
-            comfortable in the ambiguous realms of innovation.
+            Thriving in the face of new challenges and excelling in uncharted
+            territories, I made a conscious decision to transition careers. My
+            journey through several startup environments has equipped me with
+            the ability to navigate uncertain scenarios- a vital skill in an
+            ever-evolving field.
           </p>
           <p>
-            Driven by an insatiable passion for continuous learning, I immerse
-            myself in research, delving into the intricacies of subjects that
-            captivate me. I&rsquo;m motivated by the possibilities and relish
-            unraveling the complexities of high-leveling functionalities.
-          </p>
-          <p>
-            Beyond my technical skills, my strengths in leadership,
-            collaboration, and critical thinking foster a seamless role as a
-            team player and problem-solver.
-          </p>
-          <p>
-            Eager to embrace fresh challenges, I am poised to contribute my
-            expertise to a forward-thinking and innovative individual or
-            organization, elevating projects and propelling success.
+            As a developer, I&rsquo;ve freelanced on projects for small business
+            owners and creative individuals, taking full responsibility for the
+            entire development lifecycle. Additionally, I&rsquo;ve undertaken
+            contract work for accelerator companies, collaborating within a team
+            of developers to build MVPs, ensure quality in applications, and
+            more.
           </p>
         </div>
       }
