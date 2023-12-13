@@ -16,6 +16,7 @@ export const PROJECT_DATA: Record<string, Project> = {
         githubURL: 'https://github.com/TAndrewLopez/booking-tattoos',
         liveURL: 'https://booking-tattoos.vercel.app/',
         imageURL: '/image/projects/tattoo.png',
+        videoURL: '/video/tattoo.mp4',
         description: "Designed and developed a web application that streamlined the workflow for a client. Deliverables include, client side UI with intake form, essential CRM operations to allow custom responses, creating, updating and assigning calendar events."
     },
     records: {

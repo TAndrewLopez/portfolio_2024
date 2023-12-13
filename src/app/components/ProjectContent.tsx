@@ -11,7 +11,7 @@ const ProjectContent = ({ project }: Props) => {
     <div className="relative text-white flex flex-col gap-5 px-5">
       {videoURL && (
         <video controls>
-          <source src="./video/linkuistixVideo.mp4" type="video/mp4" />
+          <source src={videoURL} type="video/mp4" />
         </video>
       )}
       {!videoURL && images?.length && <Carousel images={images} width={1200} />}
