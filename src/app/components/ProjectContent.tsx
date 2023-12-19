@@ -14,7 +14,7 @@ const ProjectContent = ({ project }: Props) => {
           <source src={videoURL} type="video/mp4" />
         </video>
       )}
-      {!videoURL && images?.length && <Carousel images={images} width={1200} />}
+      {!videoURL && !!images?.length && <Carousel images={images} width={1200} />}
       {description}
     </div>
   );
