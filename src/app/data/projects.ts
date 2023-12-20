@@ -23,8 +23,8 @@ export const PROJECT_DATA: Record<string, Project> = {
     svs: {
         name: "SVS",
         technologies: ["typescript", "next", "tailwind"],
-        githubURL: "https://github.com/TAndrewLopez/booking-tattoos",
-        liveURL: "https://booking-tattoos.vercel.app/",
+        githubURL: "https://github.com/TAndrewLopez/video_streaming_platform",
+        liveURL: "https://video-streaming-platform-flame.vercel.app",
         imageURL: "/image/projects/stream.png",
         description: "Streaming Video Service is a web application that connects with a streaming software like OBS and broadcasts the selected video and audio for live viewers online. As the broadcaster you're provided tools to manage and engage with the viewers of your channel. As a viewer you can chat in any broadcast and if you sign in, it displays the channels you follow or you can start your own broadcast. \n ClerkProvider wraps the entire application for authentication purposes and uses a custom webhook to ensure request are authentic. I also implement Clerk's client side hooks to gate keep certain views and actions from users who aren't signed in. \n To ensure data integrity when working with sensitive information like KEYS and IDs, I used an ORM called Prisma to query tables in the database and only return what's required for components to render. \n To assist with the essentials of any streaming service, Livekit provides a mainstream way to effectively integrate real-time audio and video while UploadThing provides a way to add file upload to this project.",
         images: [
