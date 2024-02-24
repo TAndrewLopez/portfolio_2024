@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+
 import Modal from "./components/Modal";
 import IntroController from "./controller/IntroController";
 import ProjectController from "./controller/ProjectController";
@@ -24,7 +25,6 @@ export default function Home() {
   };
 
   return (
-    // <main className="bg-mystic bg-no-repeat bg-center bg-cover h-full overflow-hidden">
     <main className="h-full overflow-hidden">
       <div className="flex flex-col h-full mx-auto max-w-4xl p-4 space-y-5">
         {/* DEV INFO */}

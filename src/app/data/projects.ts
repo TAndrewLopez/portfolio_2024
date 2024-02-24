@@ -10,6 +10,16 @@ export interface Project {
 }
 
 export const PROJECT_DATA: Record<string, Project> = {
+    visualizer: {
+        name: "Sorting Visualizer",
+        technologies: ["typescript", "next", "tailwind"],
+        githubURL: "https://github.com/TAndrewLopez/sorting_visualizer",
+        liveURL: "https://sorting-visualizer-virid.vercel.app/",
+        imageURL: "/image/projects/visualizer.png",
+        description: "The Sorting Visualizer project is a dynamic web application that demonstrates my understanding of time complexity and the practical implementation of various sorting algorithms. As an interactive tool, it provides a visual representation of how sorting algorithms operate, allowing users to observer the efficiency and behavior of each algorithm in real-time.\n Utilizing technologies such as TypeScript, Next.js, and TailwindCSS, this project showcases not only proficiency in front-end development but also a commitment to delivering clean, responsive, user interfaces. ",
+        images: ["/image/projects/visualizer_splash.png"],
+
+    },
     tattoo: {
         name: "Tattoo CRM",
         technologies: ["typescript", "next", "tailwind", "mongo", "firebase"],
@@ -26,7 +36,8 @@ export const PROJECT_DATA: Record<string, Project> = {
         githubURL: "https://github.com/TAndrewLopez/video_streaming_platform",
         liveURL: "https://video-streaming-platform-flame.vercel.app",
         imageURL: "/image/projects/stream.png",
-        description: "Streaming Video Service is a web application that connects with a streaming software like OBS and broadcasts the selected video and audio for live viewers online. As the broadcaster you're provided tools to manage and engage with the viewers of your channel. As a viewer you can chat in any broadcast and if you sign in, it displays the channels you follow or you can start your own broadcast. \n ClerkProvider wraps the entire application for authentication purposes and uses a custom webhook to ensure request are authentic. I also implement Clerk's client side hooks to gate keep certain views and actions from users who aren't signed in. \n To ensure data integrity when working with sensitive information like KEYS and IDs, I used an ORM called Prisma to query tables in the database and only return what's required for components to render. \n To assist with the essentials of any streaming service, Livekit provides a mainstream way to effectively integrate real-time audio and video while UploadThing provides a way to add file upload to this project.",
+        description:
+            "Streaming Video Service is a web application that connects with a streaming software like OBS and broadcasts the selected video and audio for live viewers online. As the broadcaster you're provided tools to manage and engage with the viewers of your channel. As a viewer you can chat in any broadcast and if you sign in, it displays the channels you follow or you can start your own broadcast. \n ClerkProvider wraps the entire application for authentication purposes and uses a custom webhook to ensure request are authentic. I also implement Clerk's client side hooks to gate keep certain views and actions from users who aren't signed in. \n To ensure data integrity when working with sensitive information like KEYS and IDs, I used an ORM called Prisma to query tables in the database and only return what's required for components to render. \n To assist with the essentials of any streaming service, Livekit provides a mainstream way to effectively integrate real-time audio and video while UploadThing provides a way to add file upload to this project.",
         images: [
             "/image/projects/stream_splash.png",
             "/image/projects/stream_upload.png",
